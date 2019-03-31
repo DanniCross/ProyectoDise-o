@@ -10,9 +10,9 @@
 	width: 100%;
 	max-width: 570px;
 	max-height:400px;
-	margin:0 auto;
+	margin: auto;
 	z-index:90;
-	text-align:left; /* reset align=center */
+	text-align:center; /* reset align=center */
 	font-size: 10px;
 	text-shadow: none; /* fix some user styles */
 
@@ -306,10 +306,6 @@
 	/*text-shadow: 1px 1px 1px #BBBBBB;*/
 }
 
-#wowslider-container1 .ws-title span {
-
-
-}
 
 /*
 #wowslider-container1 .ws-title {
