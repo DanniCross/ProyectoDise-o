@@ -33,16 +33,35 @@ p {
 .ciudad{
   padding-right: 50px;
   margin-left: 20%;
-  margin-right: 10%;
+}
+
+.placa{
+  margin-left: 20%;
+  margin-top: 2.5%;
+}
+
+.boton{
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: .5rem;
+  border: 1px solid #eee;
+  width: auto;
+  transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  top: -.5rem;
 }
 
 #placa{
+  margin-left: 20%;
+  margin-bottom: 5%;
+  width: 200px;
+  height: 25px;
   -webkit-appearance: textfield;
   background-color: white;
   -webkit-rtl-ordering: logical;
   cursor: text;
-  padding: 1px 0px;
-  width: 200px;
+  padding: 1px;
   border-width: 2px;
   border-style: inset;
   border-color: initial;
