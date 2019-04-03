@@ -27,6 +27,26 @@ p {
   color: #000;
   margin: 0 0 10px;
   font-size: 0.95em;
+  
+}
+
+.ciudad{
+  padding-right: 50px;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+#placa{
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px 0px;
+  width: 200px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
 }
 
 /*.container {
