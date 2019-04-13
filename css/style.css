@@ -230,6 +230,7 @@ article {
 .underline{text-decoration: underline;}
 
 /*---- float ----*/
+.fr2{float: right;}
 .fl{float: left;}
 img.fl {margin:4px 10px 0 0; }
 
