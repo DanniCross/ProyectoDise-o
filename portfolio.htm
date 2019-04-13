@@ -34,7 +34,11 @@
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-
+    <script> 
+			function abrir(url) { 
+			open(url,'','top=300,left=550,width=500,height=150') ; 
+			} 
+			</script>
 			
 
 	</head>
@@ -138,9 +142,6 @@
 									<a class="title" href="news.htm"> La rotación en tu ciudad</a>
 									<p>Enterate de la actual rotación en tu ciudad con tu pico & placa.</p>
 								</li>
-								<li>
-									<a class="red" href="list-news.htm">Más noticias</a>
-								</li>
 							</ul>
 
 						</div>
@@ -177,25 +178,24 @@
 							
 							<section class="content portfolio-content">
 								<p class="ciudad">Seleccione su ciudad:</p>
-								<select name="ciudad" class="ciudad">
-									  <option></option>
-										<option>Cali</option>
-										<option>Bucaramanga</option>
-										<option>Manizales</option>
-										<option>Bogotá</option>
-										<option>Medellín</option>
-										<option>Pasto</option>
-										<option>Armenia</option>
-										<option>Pereira</option>
-										<option>bello</option>
-										<option>Salamina</option>
-								</select>
-								<p class="placa">Digite su placa:</p>
-								<input id="placa" type="text" placeholder="ej: ABC-123">
-								<button type="submit" class="boton">Consultar</button>
-								<div id="info">
-									<p id="info"></p>
+								<div class="caja">
+									<select name="ciudad">
+										  <option>Sin seleccionar</option>
+											<option>Cali</option>
+											<option>Bucaramanga</option>
+											<option>Manizales</option>
+											<option>Bogotá</option>
+											<option>Medellín</option>
+											<option>Pasto</option>
+											<option>Armenia</option>
+											<option>Pereira</option>
+											<option>bello</option>
+											<option>Salamina</option>
+									</select>
 								</div>
+									<p class="placa">Digite su placa:</p>
+									<input name="dato" id="placa" type="text" placeholder="ej: ABC-123">
+									<button type="submit" class="boton" onclick="javascript:abrir('info.html')">Consultar</button>
 							  <!--<div class="clear"></div>-->
 							</section>
 						</div>

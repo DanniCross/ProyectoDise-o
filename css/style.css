@@ -4,6 +4,7 @@ html {
   margin: 0;
 }
 
+
 #free-flash-header a  {
  display: inline;
  text-decoration: underline;
@@ -16,9 +17,13 @@ html {
   width: 100%;
 }
 
+.info{
+    margin-left: 40px;
+}
+
 body{
   padding: 0;
-  margin: 0;
+  margin: 0;  
   background: none repeat scroll 0 0 rgba(0,0,0,0);
   color: #000;
   font-family: Arial,Helvetica,sans-serif;
@@ -26,6 +31,17 @@ body{
   font-weight: 300;
   line-height: 10px;
 }
+
+select{
+  background: transparent;
+  font-size: 14px;
+  height: 25px;
+  padding: 0px;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+select:focus{ outline: none;}
 
 p {
   color: #000;
@@ -36,18 +52,44 @@ p {
 
 .ciudad{
   padding-right: 50px;
-  margin-left: 20%;
+  margin-left: 10%;
+}
+
+.caja{
+  padding-right: 50px;
+  margin-left: 10%;
+  height: 25px;
+  overflow: hidden;
+  width: 215px;
+  position: relative;
+}
+
+.caja::after{
+  margin-left: 66%;
+  content: "\025be";
+  display: table-cell;
+  padding-top: 7px;
+  text-align: center;
+  width: 23px;
+  height: 25px;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 0;
+  right: opx;
+  pointer-events: none;
 }
 
 .placa{
-  margin-left: 20%;
-  margin-top: 2.5%;
+  margin-left: 35%;
+  margin-top: -2.9rem;
+  position: relative;
+  width: auto;
 }
 
 .boton, .boton:focus{
   overflow: hidden;
   padding: 1rem;
-  margin: 0 1rem;
+  margin: 0 5rem;
   border-radius: .5rem;
   border: none;
   width: auto;
@@ -69,7 +111,7 @@ color: #111;
 }
 
 #placa{
-  margin-left: 20%;
+  margin-left: 35%;
   margin-bottom: 5%;
   width: 200px;
   height: 25px;
@@ -188,7 +230,6 @@ article {
 .underline{text-decoration: underline;}
 
 /*---- float ----*/
-.fr{float: right;}
 .fl{float: left;}
 img.fl {margin:4px 10px 0 0; }
 
