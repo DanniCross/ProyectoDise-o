@@ -1,4 +1,8 @@
-html {font-size: 100%;}
+html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
 
 #free-flash-header a  {
  display: inline;
@@ -9,12 +13,12 @@ html {font-size: 100%;}
 .page-container {
 	min-height: 100%; 
 	position: absolute; 
-	margin: auto;
   width: 100%;
 }
 
 body{
-  margin: auto;
+  padding: 0;
+  margin: 0;
   background: none repeat scroll 0 0 rgba(0,0,0,0);
   color: #000;
   font-family: Arial,Helvetica,sans-serif;
